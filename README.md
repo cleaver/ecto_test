@@ -1,6 +1,6 @@
 # EctoTest
 
-**TODO: Add description**
+Trying out some things with just plain ecto.
 
 ## Installation
 
@@ -16,4 +16,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/ecto_test](https://hexdocs.pm/ecto_test).
-
