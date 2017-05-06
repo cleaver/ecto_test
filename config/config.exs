@@ -7,6 +7,17 @@ use Mix.Config
 # file won't be loaded nor affect the parent project. For this reason,
 # if you want to provide default values for your application for
 # 3rd-party users, it should be done in your "mix.exs" file.
+config :ecto_test, ecto_repos: [EctoTest.Repo]
+
+config :ecto_test, EctoTest.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  database: "ecto_test_dev",
+  username: "postgres",
+  password: "postgres",
+  hostname: "localhost",
+  port: "5432"
+
+# import_config("#{Mix.env}.config.exs")
 
 # You can configure for your application as:
 #
